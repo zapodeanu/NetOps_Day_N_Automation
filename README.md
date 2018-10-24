@@ -1,4 +1,4 @@
-# NetOps---Day-N-Automation
+# NetOps_Day_N_Automation
 
 **Cisco Partner Architect Exchange - Sample code**
 
@@ -15,5 +15,13 @@ It will collect the configuration file for each DNA Center managed device, compa
     - no Access Control Lists changes
     - no logging changes
     - no duplicated IPv4 addresses
-    
- This code is to be used for learning and in labs environment only.
+
+The sub_message.py file will need to run on IOS XE Guest Shell.
+Guest Shell will need to be configured to reach the Internet. 
+Python libraries needed are:
+ - ncclient
+ - pubnub==4.1.0
+ - requests
+
+
+This code is to be used for learning and in labs environment only.
